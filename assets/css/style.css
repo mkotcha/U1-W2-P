@@ -77,8 +77,14 @@ section > h3 {
 
 header + section + section {
   background-image: url(../img/bg-image.png);
+  background-size: 93%;
   text-align: center;
   color: white;
+}
+
+header + section + section:hover {
+  background-image: url(../img/bg-img.png);
+  color: #146f7f;
 }
 
 section > h1 {
