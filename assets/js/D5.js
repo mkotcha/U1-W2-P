@@ -177,7 +177,7 @@ const charactersArray = ["g", "n", "u", "z", "d"];
 const charToNum = function (array) {
   const arrayNum = [];
   for (let i = 0; i < array.length; i++) {
-    const element = array[i];
+    const element = array[i].toLowerCase();
     switch (element) {
       case "a":
         arrayNum.push(1);
@@ -251,4 +251,4 @@ const charToNum = function (array) {
 };
 
 const numberArray = charToNum(charactersArray);
-// printArray(numberArray);
+printArray(numberArray);
