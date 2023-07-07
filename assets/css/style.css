@@ -94,10 +94,6 @@ h1 + h2 {
   padding-bottom: 60px;
 }
 
-picture {
-  display: block;
-}
-
 main > section:first-child {
   background-color: white;
   padding-bottom: 20px;
@@ -146,7 +142,7 @@ footer p a {
   color: white;
   text-decoration: underline;
   font-size: 1.3rem;
-  padding-block: 20px;
+  padding: 20px 0;
 }
 
 footer picture img {
